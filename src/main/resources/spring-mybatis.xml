@@ -19,7 +19,7 @@ http://www.springframework.org/schema/aop/spring-aop-3.0.xsd
 		<property name="minIdle" value="0" />		
 		<property name="maxWait" value="60000" />
 		
-		<property name="validationQuery" value="${validationQuery}" />
+<!-- 		<property name="validationQuery" value="${validationQuery}" /> -->
 		<property name="testOnBorrow" value="false" />
 		<property name="testOnReturn" value="false" />
 		<property name="testWhileIdle" value="true" />

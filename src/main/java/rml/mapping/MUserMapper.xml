@@ -81,6 +81,7 @@
   </update>
   
   <select id="getAll" resultMap="BaseResultMap">
-	select ID, NAME, AGE, ADDRESS from muser
+	select ID, NAME, AGE, ADDRESS from MUSER
+	
   </select>
 </mapper>
